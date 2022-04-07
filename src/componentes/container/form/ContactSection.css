@@ -1,0 +1,153 @@
+.contact-section {
+    width: 100%; height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contact-content {
+    width: 100%; height: 680px;
+}
+.form-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5%;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+.form-menu img {
+    height: 2.5rem;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+
+}
+.form-icon {
+    color: white;
+    height: 1.5rem;
+    padding: 0.5rem;
+    margin: 0 0.5rem;
+}
+.form-selected {
+    border: solid 1px white;
+    border-radius: 0.5rem;
+    height: 1.4rem;
+}
+.form-text h3 {
+    font-family: 'Libre Franklin';
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    overflow-wrap: break-word;
+    font-size: 58px;
+    font-weight: 800;
+    line-height: 0.9;
+    color: white;
+}
+.form-text .line {
+    width: 75%; height: 6px;
+    margin: 2rem 0;
+}
+.form-contact {
+    width: 100%; height: 75%;
+    text-align: center;
+    background-image: linear-gradient(to right bottom, #28283831, #2f2c533a, rgba(30, 19, 92, 0.158), #0505055b);
+    border: solid 2px rgba(255, 255, 255, 0.555);
+    border-radius: 0.5rem;
+    padding-top: 1.5rem;
+}
+.form-level {
+    width: 100%; height: 15%; 
+    display: block;
+    margin: 15px 0;
+}
+.form-level label {
+    width: 100%;
+    padding: 0.5rem;
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: white;
+}
+.form-level input {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(20, 7, 24);
+    width:50%; height: 35px;
+}
+.form-level #description {
+    width: 50%; height: 4rem;
+    word-break: break-word;
+}
+.form-button {
+    width: 30%; height: 50px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    color: white;
+    background-color: rgba(230, 46, 123, 0.555);
+    border: solid 2px white;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+.wp-button {
+    width: 100%; height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.wp-button a {
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 0.5rem;
+}
+
+@media only screen and (max-width: 355px) {
+    .contact-section {
+        width: 100%; height: 100%;
+    }
+    .form-contact {
+        height: 75%;
+    }
+    .form-text h3 {
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 355px) and (max-width: 720px) {
+    .contact-content {
+        display: block;
+    }
+    
+    .form-contact {
+        width: 100%; height: 75%;
+        text-align: center;
+        background-image: linear-gradient(to right bottom, #28283831, #2f2c533a, rgba(30, 19, 92, 0.158), #0505055b);
+        border: solid 2px rgba(255, 255, 255, 0.555);
+        border-radius: 0.5rem;
+    }
+    .form-level input {
+        width: 70%;
+    }
+    .form-level #description {
+        width: 70%;
+    }
+    .form-text h3 {
+        text-align:start;
+        font-size:35px;
+        font-weight: 700;
+        padding: 0 0.5rem;
+        margin-bottom: 6rem;
+    }
+}
+@media only screen and (min-width: 1366px) {
+
+    .contact-content {
+        width: 100%; height: 680px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+

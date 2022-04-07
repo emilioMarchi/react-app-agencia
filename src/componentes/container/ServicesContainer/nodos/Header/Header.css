@@ -1,0 +1,38 @@
+.services-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: linear-gradient(to right bottom, #ffffff79, #f7f7f7, #e0e0e0be);
+    border-radius: 25px;
+    margin-top: 1rem;
+}
+.header-options {
+    font-size: 18px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    padding: 2rem;
+}
+.selected {
+    color: rgb(155, 132, 158);
+}
+.header-options:hover {
+    cursor: pointer;
+}
+ 
+
+@media only screen and (min-width: 360px) and (max-width: 720px) {
+    .services-header {
+        width: 90%;
+    }
+    .header-options {
+        font-size: 20px;
+    }
+}    
+@media only screen and (min-width: 576px) and (max-width: 1500px) {
+    .services-header {
+        width: 40%;
+    }
+
+}    
