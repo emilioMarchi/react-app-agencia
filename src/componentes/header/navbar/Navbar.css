@@ -29,18 +29,14 @@
         text-align:left;
         width: 100%;height: 3rem;
         list-style: none;
-        margin: 1.4rem;
+        margin: 1.4rem 1rem;
     }
     .nav-mobile ul li a {
         width: 100%;
         text-decoration: none;
         color: white;
-        font-size: 40px;
-    }
-    @media only screen and (max-width: 370px) {
-        .nav-mobile ul li a {
-            font-size: 32px;
-        }
+        font-size: 32px;
+        
     }
 }
 @media only screen and (min-width: 720px) and (max-width: 1500px) {
@@ -50,7 +46,7 @@
         justify-content: end;
     }
     .nav-border {
-        width: 20rem; height: 3rem;
+        width: 100%; height: 3rem;
     }
     .nav .nav-border ul{
         height: 3rem;

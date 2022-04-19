@@ -5,7 +5,7 @@ import ServicesContainer from '../../container/ServicesContainer/ServicesContain
 
 const Section2 = () => {
     return(
-        <div className='section section-2' id='soluciones'>
+        <div className='section section-2' id='cards-services'>
             <ServicesContainer />
         </div>
     )

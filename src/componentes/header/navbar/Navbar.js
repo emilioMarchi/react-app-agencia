@@ -17,16 +17,18 @@ const Navbar = () => {
         <nav className='nav'>
             <div className='nav-border'>
                 <ul>
-                    <li><a href='#inicio'>Inicio</a></li>
-                    <li><a href='#soluciones'>Servicios</a></li>
-                    <li><a href='#contacto'>Contacto</a></li>
+                    <li><a href='#home'>Inicio</a></li>
+                    <li><a href='#services'>¿Qué hacemos?</a></li>
+                    <li><a href='#cards-services'>Servicios</a></li>
+                    <li><a href='#contact'>Contacto</a></li>
                 </ul>
             </div>
             <div className={state === true ? 'd-none' : 'nav-mobile'}>
                 <ul >
-                    <li><a onClick={handleBar} href='#inicio'>Home</a></li>
-                    <li><a onClick={handleBar}  href='#soluciones'>Servicios</a></li>
-                    <li><a onClick={handleBar} href='#contacto'>Contacto</a></li>
+                    <li><a onClick={handleBar} href='#home'>Inicio</a></li>
+                    <li><a onClick={handleBar} href='#services'>¿Qué hacemos?</a></li>
+                    <li><a onClick={handleBar} href='#cards-services'>Servicios</a></li>
+                    <li><a onClick={handleBar} href='#contact'>Contacto</a></li>
                 </ul>
             </div>
         </nav>

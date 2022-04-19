@@ -1,6 +1,6 @@
 .services-card {
     width: 20%; height: 90%;
-    background-image: linear-gradient(to right bottom, #ffffffaf, #f7f7f7, #e0e0e0e5);
+    background-image: linear-gradient(to right bottom, #0c0c0caf, #1d1d1d, #252525, #181717e5);
     align-items: center;
     text-align: center;
 
@@ -9,16 +9,13 @@
     
     z-index: 1;
     border-radius: 0.5rem;
-    transition: all 0.5s;
 }
 .services-card:hover {
-    background-image: linear-gradient(to right bottom, #ffffffec, #ffffff, #ffffff);
+    background-image: linear-gradient(to right bottom, #131212af, #302f2f, #333333, #242323e5);
     cursor: pointer;
-    width: 21%; height: 91%;
 }
 .services-card-content {
     width: 100%; height: 85%;
-    color: rgb(0, 0, 0);
     font-family: 'Libre Franklin';
     padding: 0 1rem;
 }
@@ -43,7 +40,7 @@
     height: 12vh;
     font-size: 25px;
     font-weight: 700;
-    color: rgb(48, 34, 53);
+    color: rgb(109, 82, 119);
     line-height: 1;
     margin-bottom: 2rem;
 }
@@ -51,7 +48,7 @@
     font-size: 16px;
     font-family: 'Libre Franklin';
     font-weight: 500;
-    color: rgb(84, 66, 99);
+    color: rgb(141, 119, 158);
 }
 .body-card .price {
     font-size: 40px;
@@ -82,8 +79,10 @@
         margin-left: auto;
         margin-right: auto;
     }
-    .services-card :hover {
-        width: 98%; height: 20rem;
+    .services-card:hover{}
+    .services-card :active {
+        background-image: linear-gradient(to right bottom, #131212af, #302f2f, #333333, #242323e5);
+
     }
     .services-card-content {
         height: 15rem;

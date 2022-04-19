@@ -38,7 +38,7 @@
         color: white;
     }
     .line {
-        width: 60%; height: 1px;
+        width: 40%; height: 1px;
         background-color: rgba(214, 185, 247, 0.808);
     }
 }

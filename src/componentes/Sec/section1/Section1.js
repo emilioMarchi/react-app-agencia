@@ -4,7 +4,7 @@ import HomeContainer from '../../container/Home/HomeContainer'
 
 const Section1 = () => {
     return(
-        <div className='section section-1' id='inicio'>
+        <div className='section section-1' id='home'>
             <HomeContainer />
         </div>
     )
